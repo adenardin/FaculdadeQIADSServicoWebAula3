@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<data-source id="mysql8-169639f4c55-6f5ea0fb4399f482" provider="mysql" driver="mysql8" name="MySQL 8.x - localhost" save-password="true" read-only="false">
+		<connection host="localhost" port="3306" server="" database="" url="jdbc:mysql://localhost:3306/" user="root" password="Aw0DMhAaHEBPcuc=" home="/usr" type="dev"/>
+		<virtual-meta-data>
+			<container name="model">
+				<container name="dbaula">
+					<entity name="nota">
+						<constraint name="PRIMARY" type="VIRTUAL KEY">
+							<attribute name="codDisciplina"/>
+							<attribute name="ra"/>
+							<attribute name="ano_semestre"/>
+							<attribute name="n1"/>
+							<attribute name="n2"/>
+							<attribute name="exame"/>
+							<attribute name="aprovado"/>
+						</constraint>
+					</entity>
+				</container>
+			</container>
+		</virtual-meta-data>
+	</data-source>
+	<filters/>
+</data-sources>
